@@ -2,6 +2,7 @@ import React from 'react';
 import dogsApp from '../assets/portfolio/dogs-app.png';
 import vinoRojo from '../assets/portfolio/vino-rojo-restaurante.png';
 import weatherApp from '../assets/portfolio/weather-app.png';
+import vapeClub from '../assets/portfolio/vape-club.png';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 export default function Portfolio() {
@@ -9,18 +10,23 @@ export default function Portfolio() {
   const portfolios = [
     {
       id: 1,
+      src: vapeClub,
+      github: 'https://github.com/consbenjamin/ecommerceVapes',
+    },
+    {
+      id: 2,
       src: weatherApp,
       href: 'https://weather-app-constantino.vercel.app/',
       github: 'https://github.com/consbenjamin/Weather-App',
     },
     {
-      id: 2,
+      id: 3,
       src: vinoRojo,
       href: 'https://vino-rojo-bodegon.vercel.app/',
       github: 'https://github.com/consbenjamin/Vino-Rojo-Bodegon',
     },
     {
-      id: 3,
+      id: 4,
       src: dogsApp,
       href: 'https://pi-henry-dogs-v3i7.vercel.app/',
       github: 'https://github.com/consbenjamin/PI-Henry-Dogs',
